@@ -24,7 +24,7 @@
     button.center = self.view.center;
     button.backgroundColor = [UIColor redColor];
     [button addTarget:self action:@selector(buttonActionClick:) forControlEvents:UIControlEventTouchUpInside];
-    
+    [button setTitle:@"点我吧" forState:UIControlStateNormal];
     [self.view addSubview:button];
     
     
